@@ -1,3 +1,4 @@
+import Menu from "./Menu";
 import Navbar from "./Navbar";
 
 function Home() {

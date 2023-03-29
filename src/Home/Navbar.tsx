@@ -1,18 +1,20 @@
-import "./Home.css"
+import      "./Home.css"
+import Menu from "./Menu";
 
 function Navbar() {
 
-    
-
     return (
         <div className="Navbar">
-            <button className="Menu option">
+            <button className="Menu option" id="Menu">
                 Menu
             </button>
-            <button className="Recipe option">
+            <div className="menu">
+                <Menu/>
+            </div>
+            <button className="Recipe option" id="Recipe">
                 Recipe
             </button>
-            <button className="About option">
+            <button className="About option" id="About">
                 About
             </button>
         </div>  
